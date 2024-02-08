@@ -2,10 +2,16 @@
 //
 
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	int a, b;
+	cout << "Dati cele doua numere: ";
+	cin >> a >> b;
+	cout << a + b;
+
+	return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

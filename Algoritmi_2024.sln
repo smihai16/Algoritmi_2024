@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Februarie", "Februarie", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Afisarea divizorilor", "Afisarea divizorilor\Afisarea divizorilor.vcxproj", "{118FB8D7-28A4-4B8E-AF4E-D8FF25D25670}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Adunare", "Adunare\Adunare.vcxproj", "{06D06C59-C5FF-45CB-A131-851367871EEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -23,12 +25,21 @@ Global
 		{118FB8D7-28A4-4B8E-AF4E-D8FF25D25670}.Release|x64.Build.0 = Release|x64
 		{118FB8D7-28A4-4B8E-AF4E-D8FF25D25670}.Release|x86.ActiveCfg = Release|Win32
 		{118FB8D7-28A4-4B8E-AF4E-D8FF25D25670}.Release|x86.Build.0 = Release|Win32
+		{06D06C59-C5FF-45CB-A131-851367871EEB}.Debug|x64.ActiveCfg = Debug|x64
+		{06D06C59-C5FF-45CB-A131-851367871EEB}.Debug|x64.Build.0 = Debug|x64
+		{06D06C59-C5FF-45CB-A131-851367871EEB}.Debug|x86.ActiveCfg = Debug|Win32
+		{06D06C59-C5FF-45CB-A131-851367871EEB}.Debug|x86.Build.0 = Debug|Win32
+		{06D06C59-C5FF-45CB-A131-851367871EEB}.Release|x64.ActiveCfg = Release|x64
+		{06D06C59-C5FF-45CB-A131-851367871EEB}.Release|x64.Build.0 = Release|x64
+		{06D06C59-C5FF-45CB-A131-851367871EEB}.Release|x86.ActiveCfg = Release|Win32
+		{06D06C59-C5FF-45CB-A131-851367871EEB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{118FB8D7-28A4-4B8E-AF4E-D8FF25D25670} = {F7EE5355-1F23-4A06-930E-05BB80F3C0C2}
+		{06D06C59-C5FF-45CB-A131-851367871EEB} = {F7EE5355-1F23-4A06-930E-05BB80F3C0C2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8C20775B-7DD2-495D-B312-D48C33E79885}

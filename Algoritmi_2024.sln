@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Adunare", "Adunare\Adunare.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Algoritm de interschimbare", "Algoritm de interschimbare\Algoritm de interschimbare.vcxproj", "{AF7FBA7F-07DB-4CCF-B8C1-30E53862072C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Algoritm de prelucrare cifre", "Algoritm de prelucrare cifre\Algoritm de prelucrare cifre.vcxproj", "{E6FAF1E4-6A18-44E7-8309-6AFD92AE45F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -43,6 +45,14 @@ Global
 		{AF7FBA7F-07DB-4CCF-B8C1-30E53862072C}.Release|x64.Build.0 = Release|x64
 		{AF7FBA7F-07DB-4CCF-B8C1-30E53862072C}.Release|x86.ActiveCfg = Release|Win32
 		{AF7FBA7F-07DB-4CCF-B8C1-30E53862072C}.Release|x86.Build.0 = Release|Win32
+		{E6FAF1E4-6A18-44E7-8309-6AFD92AE45F2}.Debug|x64.ActiveCfg = Debug|x64
+		{E6FAF1E4-6A18-44E7-8309-6AFD92AE45F2}.Debug|x64.Build.0 = Debug|x64
+		{E6FAF1E4-6A18-44E7-8309-6AFD92AE45F2}.Debug|x86.ActiveCfg = Debug|Win32
+		{E6FAF1E4-6A18-44E7-8309-6AFD92AE45F2}.Debug|x86.Build.0 = Debug|Win32
+		{E6FAF1E4-6A18-44E7-8309-6AFD92AE45F2}.Release|x64.ActiveCfg = Release|x64
+		{E6FAF1E4-6A18-44E7-8309-6AFD92AE45F2}.Release|x64.Build.0 = Release|x64
+		{E6FAF1E4-6A18-44E7-8309-6AFD92AE45F2}.Release|x86.ActiveCfg = Release|Win32
+		{E6FAF1E4-6A18-44E7-8309-6AFD92AE45F2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +61,7 @@ Global
 		{118FB8D7-28A4-4B8E-AF4E-D8FF25D25670} = {F7EE5355-1F23-4A06-930E-05BB80F3C0C2}
 		{06D06C59-C5FF-45CB-A131-851367871EEB} = {F7EE5355-1F23-4A06-930E-05BB80F3C0C2}
 		{AF7FBA7F-07DB-4CCF-B8C1-30E53862072C} = {F7EE5355-1F23-4A06-930E-05BB80F3C0C2}
+		{E6FAF1E4-6A18-44E7-8309-6AFD92AE45F2} = {F7EE5355-1F23-4A06-930E-05BB80F3C0C2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8C20775B-7DD2-495D-B312-D48C33E79885}

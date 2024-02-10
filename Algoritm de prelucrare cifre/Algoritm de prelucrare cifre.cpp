@@ -1,32 +1,28 @@
 #include <iostream>
 using namespace std;
 
-//void sumaCifrelor(int x)
-//{
-//    int s, c;
-//    while (x != 0)
-//    {
-//        c = x % 10;
-//        s = s + c;
-//        x = x / 10;
-//    }
-//    cout << "Suma cifrelor numarului este: " << s;
-//}
+int sumaCifrelor(int x) //schimbam functia sa fie int
+{
+  int s = 0, c; // initializam s in interior functiei
+  while (x != 0)
+  {
+    c = x % 10;
+    s = s + c;
+    x = x / 10;
+  }
+  return s; // Returnam suma calculata
+}
 
 int main()
 {
-    int x, c, s=0;
-    cout << "Dati numarul: ";
-    cin >> x;
-    while (x != 0)
-    {
-        c = x % 10;
-        s = s + c;
-        x = x / 10;
-    }
-    cout << "Suma cifrelor numarului este: " << s;
+  int x, c;
+  cout << "Dati numarul: ";
+  cin >> x;
 
-    return 0;
+  int sum = sumaCifrelor(x); // aici chemam functia si o stocam in variabila sum
+  cout << "Suma cifrelor numarului este: " << sum;
+
+  return 0;
 }
 
 

@@ -13,16 +13,55 @@ int sumaCifrelor(int x) //schimbam functia sa fie int
   return s; // Returnam suma calculata
 }
 
-int main()
+int invers(int a)
 {
-  int x, c;
-  cout << "Dati numarul: ";
-  cin >> x;
-
-  int sum = sumaCifrelor(x); // aici chemam functia si o stocam in variabila sum
-  cout << "Suma cifrelor numarului este: " << sum;
-
-  return 0;
+    int inv = 0, c;
+    while (a != 0)
+    {
+        c = a % 10;
+        inv = inv * 10 + c;
+        a = a / 10;
+    }
+    return inv;
 }
 
+//INVERSUL UNUI NUMAR:
+//int main()
+//{
+//  int c,a;
+//  cout << "Dati numarul: ";
+//  cin >> a;
+//  int inv = invers(a);
+//  cout << "Inversul numarului este: " << inv;
+//  
+//  return 0;
+//}
+
+//NUMAR PRIM:
+//int main()
+//{
+//    int a, i, sw=1;
+//    cout << "Dati numarul: ";
+//    cin >> a;
+//    for (i = 2; i <= a / 2; i++)
+//        if (a % i == 0) sw = 0;
+//    if (sw == 1) cout << "Numarul este prim! ";
+//    else cout << "Numarul nu este prim! ";
+//
+//    return 0;
+//}
+
+//CMMDC:
+int main()
+{
+    int a, b, x, y;
+    cout << "Dati cele doua numere: ";
+    cin >> a >> b;
+    x = a;
+    y = b;
+    while(a!=b)
+        if (a > b) a = a - b;
+        else b = b - a;
+    cout << "cmmdc a lui " << x << " si " << y << " este: " << a;
+}
 

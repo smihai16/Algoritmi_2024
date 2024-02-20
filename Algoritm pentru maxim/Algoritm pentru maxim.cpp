@@ -8,10 +8,10 @@ int main()
     cin >> n;
     cout << "Dati cele " << n << " numere: ";
     cin >> max;
-    for (i = 1; i <= n-1; i++)
+    for (i = 2; i <= n; i++)
     {
         cin >> a;
-        if (max > a)max = a;
+        if (max < a)max = a;
     }
     cout << "Cea mai mare valoare din sir este: " << max;
 
